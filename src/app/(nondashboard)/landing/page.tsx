@@ -1,10 +1,14 @@
-import React from 'react'
-import Hero from './Hero'
+import React from "react";
+import Hero from "./Hero";
+import Features from "./Features";
 
 const page = () => {
   return (
-    <div><Hero /></div>
-  )
-}
+    <div>
+      <Hero />
+      <Features />
+    </div>
+  );
+};
 
-export default page
+export default page;
